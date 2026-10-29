@@ -1,0 +1,15 @@
+{
+  "sender_name": "Example Sender",
+  "sender_email": "sender@example.test",
+  "recipients": ["recipient1@example.test", "recipient2@example.test"],
+  "subject": "Example subject",
+  "text_body": "Hello,\n\nPlease see the attached document.",
+  "html_body": null,
+  "attachments": ["attachments/example.pdf"],
+  "smtp": {
+    "host": "127.0.0.1",
+    "port": 1025,
+    "timeout": 10
+  },
+  "campaign_id": "example-campaign"
+}
